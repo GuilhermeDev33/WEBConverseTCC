@@ -7,7 +7,7 @@
 :man_student: :writing_hand:	
 <p>Converse+, é um aplicativo voltado para desenvolver e aprimorar as habilidades sociais (positividade, comunicação, empatia, civilidade, enfrentamento e trabalho) e mostrar a importância das mesmas.</p>
 
-face_exhaling: :eyes:	
+:face_exhaling: :eyes:	
 <p>Para que o usuário, possa ter uma interatividade maior com as atividades propostas, em cada sessão. Será utilizado um sistema de gamificação.</p>
 
 
@@ -63,7 +63,7 @@ face_exhaling: :eyes:
     <tr>
     <tr>
         <th>
-            <img src="integrantes/nilmar.jpeg" width="100px" heigth="100px">
+            <img src="img/integrantes/nilmar.jpeg" width="100px" heigth="100px">
         </th>
         <th>
             <strong>Nilmar Huarachi</strong>
@@ -99,7 +99,7 @@ face_exhaling: :eyes:
     </center>
 <h3>SOBRE NÓS</h3>
     <center>
-        <img src="img/readme/integrante.png">
+        <img src="img/readme/integrantes.png">
     </center>
 <h3>PSICOLOGO</h3>
     <center>
