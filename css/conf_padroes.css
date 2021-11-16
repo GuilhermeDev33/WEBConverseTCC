@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background-color: #1a1a1a;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+::selection{
+	background-color: #021124;
+	text-shadow:none;
+    color: #bfbfbf;
+}
+
+.btn{
+    margin-left: 10px;
+    border: 1px solid #bfbfbf;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*------------- Header -------------*/
+
+.header{
+    max-width: 1200px;
+    background-color: #021124;
+    color: white;
+    border-radius: 10px;
+    padding: 33px;
+    margin: 10px auto;
+}
+.header h3{
+    font-size: 20px;
+    padding-left: 13px;
+    border-left: 2px solid #bfbfbf;
+}
+
+.header p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+/* Icon Chatbot*/
+
+
+.chat img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: auto;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.chat img:hover{
+    border: 3px solid #5789ff;
+}
+
+
+@media (max-width: 850px){
+    .chat img{
+        width: 50px;
+        height: 50px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+/*-------Barra de rolagem-----------*/
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: #333;
+}
+::-webkit-scrollbar-thumb {
+    background: #8c8c8c;
+}

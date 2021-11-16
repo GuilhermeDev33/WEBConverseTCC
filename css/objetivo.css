@@ -1,0 +1,74 @@
+.objetivos{
+    width: 100%;
+}
+
+.objetivos .ob1{
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0px 10px 10px #021124;
+    display: flex;
+    margin-top: 20px;
+    background-color: #bfbfbf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.objetivos .ob1 .conteudo{
+    width: 60vw;
+    padding: 10px;
+}
+
+.objetivos .ob1 .conteudo h1{
+    font-size: 22px; 
+}
+
+.objetivos .ob1 .conteudo p{
+    width: 96%;
+    color: #021124;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.objetivos .ob1 .img{  
+    padding: 10px;
+    cursor: pointer;
+}
+
+.objetivos .ob1 .img img{
+    height: 300px;
+    width: 475px;
+    border-radius: 10px;
+}
+
+.objetivos .ob1 .img img:hover{
+    transform: scale(1.003);
+}
+
+/* Versão Responsiva */
+
+@media (max-width: 1300px){
+    .objetivos{
+        width: 90vw;
+        margin: auto;
+    }
+
+    .ob1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .objetivos .ob1 .conteudo{
+        width: 100%;
+    }
+
+    .objetivos .ob1 .conteudo p{
+        width: 92%;
+    }
+
+    .objetivos .ob1 .img img{
+        height: 55vw;
+        width: 75vw;
+        border-radius: 10px;
+        margin: 0px auto;
+    }
+}

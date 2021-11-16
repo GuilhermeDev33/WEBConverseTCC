@@ -1,0 +1,30 @@
+.psicologo .container{
+    height: 350px;
+    width: 1200px;
+    text-align:center;
+    color:#fff;
+    background-image:url(../img/psicologo/psicologo_m.svg);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+
+@media (max-width:1200px){
+    .psicologo .container{
+        height: 485px;
+        width: 277px;
+        text-align:center;
+        color:#fff;
+        background-image:url(../img/psicologo/psicologo.svg);
+        background-repeat:no-repeat;
+        background-attachment:scroll;
+        background-position:center center;
+        background-size:cover;
+        margin-top: 50px;
+    }
+
+}

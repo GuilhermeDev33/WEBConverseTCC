@@ -1,0 +1,154 @@
+#header {
+  z-index: 99;
+  background-color: #021022;
+  width: 100vw;
+  position: fixed; 
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+
+.logo {
+  width: 140px;
+  height: 70px; 
+  margin-left: 7px;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+#nav {
+  margin-right: 10px;
+}
+
+#header ul li {
+  display: inline;
+  
+}
+
+#header ul li a {
+  font-weight: 500;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 18px 16px;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+  position: relative;
+}
+
+#header ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  background: #d9d9d9;
+  height: 4px;
+  transition: all 300ms ease-in-out;
+  border-radius: 8px;
+}
+
+#header ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+#header ul li a:active {
+  background-color: #d9d9d9;
+}
+
+#header nav .btn{
+  background-color: #021124;
+  color: #bfbfbf;
+  margin-right: 8px;
+}
+
+#header nav .btn:hover{
+  background-color: #bfbfbf;
+  color: #021124;
+  transition: all 600ms ease-in-out;
+}
+
+
+#menu-mobile {
+  display: none;
+}
+
+/*MENU - Responsividade */
+
+@media (max-width: 1020px) {
+  #menu {
+      display: none;
+      position: absolute;
+      width: 100vw;
+      height: auto;
+      top: 60px;
+      right: 0px;
+      z-index: 9999;
+      background-color: hsl(214, 89%, 7%);
+      text-align: center;
+      border-top: 1px solid;
+      overflow: auto;
+  }
+  
+  #header ul li {
+      display: block;
+      margin: 27px auto;
+  }
+  #header ul li a {
+      font-size: 2.2rem;
+      padding: 10px 48px;
+      font-size: 20px;
+  }
+
+  #menu-mobile {
+      display: block;
+     
+  }
+  #nav.active #menu {
+      display: block;
+  }
+  #menu-mobile {
+      background: none;
+      border: none;
+  }
+  #menu-mobile span {
+      display: block;
+      border: none;
+      background: #d9d9d9;
+      width: 24px;
+      height: 4px;
+      position: relative;
+      transition: all 0.2s;
+  }
+  
+  #menu-mobile span:nth-child(1),#menu-mobile span:nth-child(2),#menu-mobile span:nth-child(3) {
+      margin: 4px 0;
+      background: #d9d9d9;
+      width: 32px;
+      height: 4px;
+      transition: all 0.2s
+  }
+  #nav.active span:nth-child(1){
+      transform: rotate(45deg) translate(8px, 6px);
+      
+  }
+  #nav.active span:nth-child(2){
+      opacity: 0;
+  }
+  #nav.active span:nth-child(3){
+      transform: rotate(-45deg) translate(8px, -6px);
+  }
+
+}
