@@ -34,20 +34,20 @@
 
 <table>
     <th>
-        <img src="img/integrantes/carol.jpeg" alt="Substitua a imagem, por uma sua" width="100px" heigth="100px">
+        <img src="img/integrantes/carol.jpeg" width="250px" heigth="250px">
     </th>
     <th>
         <strong>Carolina Beserra</strong>
     </th>
     <tr>
         <th>
-            <img src="img/integrantes/gui.jpg" width="100px" heigth="100px">
+            <img src="img/integrantes/gui.jpg" width="250px" heigth="250px">
         <th>
             <strong>Guilherme Leme</strong>
         </th>
     <tr>
         <th>
-            <img src="img/integrantes/marco.jpg" width="100px" heigth="100px">
+            <img src="img/integrantes/marco.jpg" width="250px" heigth="250px">
         </th>
         <th>
             <strong>Marco Antonio</strong>
@@ -55,7 +55,7 @@
     <tr>
     <tr>
         <th>
-            <img src="img/integrantes/juliano.jpeg" width="100px" heigth="100px">
+            <img src="img/integrantes/juliano.jpeg" width="250px" heigth="250px">
         </th>
         <th>
             <strong>Juliano Bittencourt</strong>
@@ -63,7 +63,7 @@
     <tr>
     <tr>
         <th>
-            <img src="img/integrantes/nilmar.jpeg" width="100px" heigth="100px">
+            <img src="img/integrantes/nilmar.jpeg" width="250px" heigth="250px">
         </th>
         <th>
             <strong>Nilmar Huarachi</strong>
@@ -71,7 +71,7 @@
     <tr>
     <tr>
         <th>
-            <img src="img/integrantes/livia.jpeg" width="100px" heigth="100px">
+            <img src="img/integrantes/livia.jpeg" width="250px" heigth="250px">
         </th>
         <th>
             <strong>Livia Oliveira</strong>
